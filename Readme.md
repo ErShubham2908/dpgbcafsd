@@ -53,7 +53,7 @@ These tags define the various elements of a webpage such as headings, paragraphs
 9. **sup:** The < sup> tag is used for superscript text, often used for mathematical expressions.
 10. **sub:** The < sub> tag is used for subscript text, typically used for footnotes or chemical formulas.
 
-# Tag in HTML
+# Type of Tag in HTML
 
 **1. Semantic tag:** A semantic element clearly describes its meaning to both the browser and the developer.
 
@@ -61,11 +61,24 @@ These tags define the various elements of a webpage such as headings, paragraphs
 
 **2. Non-semantic tag:** < div> and < span> is non-semantic tag
 
-**3. Block-Level Element:** Block-level elements typically start on a new line and occupy the full width available (by default). They force a line break before and after their content.
+**3. Self-Closing Tags:** These tags are written with a forward slash (/) directly following the element name and before the closing angle bracket (>). They represent elements that don't contain any content within them.
+
+**Note:** While self-closing tags are valid in HTML, some stricter environments like XML might require them to be closed with separate tags (e.g., < br> instead of < br />).
+
+-   Ex: < br/> (line break), < hr/> (horizontal rule), < img src="image.jpg" alt="Image description" /> (image), < input type="text" name="username" /> (form input field).
+
+**4. Separate Closing Tags:** These involve an opening tag with the element name followed by a closing angle bracket (>), and a separate closing tag that starts with a forward slash (/) followed by the element name and a closing angle bracket (>). They represent elements that can contain content within them.
+
+-   Ex: < p>This is a paragraph.< /p>, < b>Bold text< b/>
+    < div>This is a section with content.< /div>
+
+# Type of Element in HTML
+
+**1. Block-Level Element:** Block-level elements typically start on a new line and occupy the full width available (by default). They force a line break before and after their content.
 
 -   Ex: < header>, < nav>, < section>, < article>, < aside>, < main>, < footer>, < h1> to < h6> headings, < p>, < div>, < ul>, < ol>, < table>, < form>, < pre>, and < hr>
 
-**4. Inline Element:** Inline elements typically display their content on the same line with surrounding text and only occupy the space needed for their content. They don't inherently create line breaks.
+**2. Inline Element:** Inline elements typically display their content on the same line with surrounding text and only occupy the space needed for their content. They don't inherently create line breaks.
 
 -   Ex: < span>, < b>, < i>, < strong>, < em>, < a>, < img>, < code>, < em>, < sup>, < sub>, < br>, and most emphasis and formatting tags.
 
@@ -77,19 +90,7 @@ These tags define the various elements of a webpage such as headings, paragraphs
 
 In HTML, there's a distinction between how tags are used depending on whether they represent elements that can contain content or not. Here's a breakdown of self-closing tags and separate closing tags:
 
-**1. Self-Closing Tags:** These tags are written with a forward slash (/) directly following the element name and before the closing angle bracket (>). They represent elements that don't contain any content within them.
-
-**Note:** While self-closing tags are valid in HTML, some stricter environments like XML might require them to be closed with separate tags (e.g., < br> instead of < br />).
-
--   Ex: < br/> (line break), < hr/> (horizontal rule), < img src="image.jpg" alt="Image description" /> (image), < input type="text" name="username" /> (form input field).
-
-**2. Separate Closing Tags:** These involve an opening tag with the element name followed by a closing angle bracket (>), and a separate closing tag that starts with a forward slash (/) followed by the element name and a closing angle bracket (>). They represent elements that can contain content within them.
-
--   Ex: < p>This is a paragraph.< /p>, < b>Bold text< b/>
-    < div>This is a section with content.< /div>
-
-
-# 1. List
+# 1. List in HTML
 
 -   **Definition :** In HTML, a list is a way to organize and display related pieces of content in a structured format. Lists are useful for presenting information in a clear and organized manner, making it easier for users to understand the relationships between different items.
 
