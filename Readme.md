@@ -166,7 +166,8 @@ In HTML, there's a distinction between how tags are used depending on whether th
     -   allowfullscreen: Enables fullscreen mode for the embedded content (if applicable).
     -   width: Sets the width of the iframe in pixels.
     -   height: Sets the height of the iframe in pixels.
-        **4. Audio:** Used to embed audio files into a web page.
+
+**4. Audio:** Used to embed audio files into a web page.
 -   tag: audio tag < audio> & source tag < source/>.
 -   Attributes:
     -   src: (Required) Specifies the path to the audio file.
